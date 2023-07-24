@@ -258,7 +258,7 @@ public class Plane : MonoBehaviour {
         //throttle is [0, 1]
         Throttle = Utilities.MoveTo(Throttle, target, throttleSpeed * Mathf.Abs(100), dt);
 
-        AirbrakeDeployed = Throttle == 0 && throttleInput == -1;
+        //AirbrakeDeployed = Throttle == 0 && throttleInput == -1;
 
         if (AirbrakeDeployed) {
             foreach (var lg in landingGear) {
