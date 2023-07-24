@@ -89,37 +89,15 @@
             ],
             "bindings": [
                 {
-                    "name": "1D Axis",
-                    "id": "7c10a109-7067-4ed9-8ac3-9c62dd974876",
-                    "path": "1DAxis",
+                    "name": "",
+                    "id": "1d314368-bcac-4926-9e46-738d075bab7e",
+                    "path": "<HID::Logitech X52 Professional H.O.T.A.S.>/z",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Throttle",
-                    "isComposite": true,
+                    "isComposite": false,
                     "isPartOfComposite": false
-                },
-                {
-                    "name": "negative",
-                    "id": "db898ab6-62ed-46c8-aa8c-185c8d579b9d",
-                    "path": "<Gamepad>/leftShoulder",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Throttle",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "positive",
-                    "id": "576b7d67-9a4c-42d1-be0c-aa52f335341a",
-                    "path": "<Gamepad>/rightShoulder",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Throttle",
-                    "isComposite": false,
-                    "isPartOfComposite": true
                 },
                 {
                     "name": "",
