@@ -251,11 +251,12 @@ public class Plane : MonoBehaviour {
 
     void UpdateThrottle(float dt) {
         float target = 0;
-        if (throttleInput > 0) target = 1;
+        //if (throttleInput > 0) target = 1;
+        target = (throttleInput + 1)/2;
 
         //throttle input is [-1, 1]
         //throttle is [0, 1]
-        Throttle = Utilities.MoveTo(Throttle, target, throttleSpeed * Mathf.Abs(throttleInput), dt);
+        Throttle = Utilities.MoveTo(Throttle, target, throttleSpeed * Mathf.Abs(100), dt);
 
         AirbrakeDeployed = Throttle == 0 && throttleInput == -1;
 
